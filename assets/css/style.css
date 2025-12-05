@@ -1,0 +1,99 @@
+body {
+    background-color: #f8f3ee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.bg-cozy {
+    background: linear-gradient(135deg, #6f4e37, #8b5a2b);
+}
+
+.text-cozy {
+    color: #6f4e37;
+}
+
+.btn-cozy-primary {
+    background-color: #c58a5b;
+    border-color: #c58a5b;
+    color: #fff;
+}
+
+.btn-cozy-primary:hover {
+    background-color: #b57846;
+    border-color: #b57846;
+}
+
+.btn-outline-cozy {
+    color: #c58a5b;
+    border-color: #c58a5b;
+}
+
+.btn-outline-cozy:hover {
+    background-color: #c58a5b;
+    color: #fff;
+}
+
+.hero-card {
+    background: #fff;
+    border-radius: 1.5rem;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+/* Home page enhancements */
+.cozy-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.cozy-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(248, 243, 238, 0.55), rgba(248, 243, 238, 0.80)), url('../images/cozy-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 100%;
+}
+
+.cozy-hero > .container {
+    position: relative;
+    z-index: 1;
+}
+
+.cozy-hero-card {
+    background: #ffffff;
+}
+
+.cozy-badge {
+    background-color: rgba(197, 138, 91, 0.12);
+    color: #6f4e37;
+}
+
+.feature-icon-circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbe7d3;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+}
+
+.cozy-cta-strip {
+    background: linear-gradient(135deg, #6f4e37, #8b5a2b);
+}
+
+.text-light-50 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    margin-top: 4rem;
+}
